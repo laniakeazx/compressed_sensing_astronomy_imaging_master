@@ -1,0 +1,35 @@
+2023-09-03 13:24:04	INFO	::casa	
+2023-09-03 13:24:06	INFO	::casa	CASA Version MODULAR 6.2.0.124
+2023-09-03 13:24:06	INFO	::casa	Can't import casatelemetry module.
+2023-09-03 13:24:07	INFO	readantenna::readantenna::casa	Reading antenna positions from '/opt/python380prj/venv/lib/python3.8/site-packages/casadata/__data__/alma/simmos/vla.d.cfg'
+2023-09-03 13:24:07	INFO	readantenna::NewMSSimulator::initAnt() 	Using global coordinates for the antennas
+2023-09-03 13:24:07	INFO	readantenna::NewMSSimulator::initAnt() 	Added rows to ANTENNA table
+2023-09-03 13:24:07	INFO	readantenna::MSsimulator::initFeeds() 	Added rows to FEED table
+2023-09-03 13:24:07	INFO	readantenna::MSsimulator::initSpWindows() 	Creating new spectral window LBand, ID 1
+2023-09-03 13:24:07	INFO	readantenna::simulator::settimes()	Times 
+2023-09-03 13:24:07	INFO	readantenna::simulator::settimes()+	     Integration time 2000s
+2023-09-03 13:24:07	INFO	readantenna::simulator::settimes()	     Times will be interpreted as hour angles for first source
+2023-09-03 13:24:07	INFO	readantenna::NewMSSimulator::observe()	First source: fake @ 19:59:28.50   +40.44.01.50       J2000
+2023-09-03 13:24:07	INFO	readantenna::NewMSSimulator::observe()+	Full time range: 03-Oct-2019/21:21:40.2 -- 04-Oct-2019/07:21:40.2 TAI with int = 2000
+2023-09-03 13:24:07	INFO	readantenna::NewMSSimulator::observe()	Calculating a total of 18 integrations
+2023-09-03 13:24:08	INFO	readantenna::Simulator::reset() 	Resetting all visibility corruption components
+2023-09-03 13:24:08	INFO	readantenna::Simulator::reset() 	Reset all image-plane corruption components
+2023-09-03 13:24:08	INFO	flagdata::::casa	##########################################
+2023-09-03 13:24:08	INFO	flagdata::::casa	##### Begin Task: flagdata           #####
+2023-09-03 13:24:08	INFO	flagdata::::casa	flagdata( vis='sim_data.ms', mode='unflag', autocorr=False, inpfile='', reason='any', tbuff=0.0, spw='', field='', antenna='', uvrange='', timerange='', correlation='', scan='', intent='', array='', observation='', feed='', clipminmax=[], datacolumn='DATA', clipoutside=True, channelavg=False, chanbin=1, timeavg=False, timebin='0s', clipzeros=False, quackinterval=1.0, quackmode='beg', quackincrement=False, tolerance=0.0, addantenna='', lowerlimit=0.0, upperlimit=90.0, ntime='scan', combinescans=False, timecutoff=4.0, freqcutoff=3.0, timefit='line', freqfit='poly', maxnpieces=7, flagdimension='freqtime', usewindowstats='none', halfwin=1, extendflags=True, winsize=3, timedev='', freqdev='', timedevscale=5.0, freqdevscale=5.0, spectralmax=1000000.0, spectralmin=0.0, antint_ref_antenna='', minchanfrac=0.6, verbose=False, extendpols=True, growtime=50.0, growfreq=50.0, growaround=False, flagneartime=False, flagnearfreq=False, minrel=0.0, maxrel=1.0, minabs=0, maxabs=-1, spwchan=False, spwcorr=False, basecnt=False, fieldcnt=False, name='Summary', action='apply', display='', flagbackup=True, savepars=False, cmdreason='', outfile='', overwrite=True, writeflags=True )
+2023-09-03 13:24:08	INFO	flagdata::::casa	Backup original flags before applying new flags
+2023-09-03 13:24:08	INFO	AgentFlagger::open	Table type is Measurement Set
+2023-09-03 13:24:08	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called flagdata_66
+2023-09-03 13:24:08	INFO	AgentFlagger::open	Table type is Measurement Set
+2023-09-03 13:24:08	INFO	flagdata::::casa	Unflag mode is active
+2023-09-03 13:24:08	INFO	flagdata::::casa	Initializing the agents
+2023-09-03 13:24:08	INFO	AgentFlagger::initAgents	There are 1 valid agents in list
+2023-09-03 13:24:08	INFO	flagdata::::casa	Running the agentflagger tool
+2023-09-03 13:24:08	INFO	FlagMSHandler::	Chunk = 1 [progress: 100%], Observation = 0, Array = 0, Scan = 1, Field = 0 (fake), Spw = 0, Channels = 10, Corrs = [ RR LL ], Total Rows = 6318
+2023-09-03 13:24:08	INFO	Unflag::chunkSummary	=> Data unflagged so far 100%
+2023-09-03 13:24:08	INFO	FlagMSHandler::nextChunk 	==================================================================================== 
+2023-09-03 13:24:08	INFO	Unflag::tableSummary	=> Percentage of data un-flagged in table selection: 100%
+2023-09-03 13:24:08	INFO	AgentFlagger::run	=> Writing flags to the MS
+2023-09-03 13:24:08	INFO	flagdata::::casa	Task flagdata complete. Start time: 2023-09-03 21:24:07.934461 End time: 2023-09-03 21:24:08.090110
+2023-09-03 13:24:08	INFO	flagdata::::casa	##### End Task: flagdata             #####
+2023-09-03 13:24:08	INFO	flagdata::::casa	##########################################

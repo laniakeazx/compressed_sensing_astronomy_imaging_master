@@ -1,0 +1,9 @@
+# Example noise_frequencies.txt file
+#
+# This file contains a list of frequencies, in Hz, for which noise
+# files are defined.
+#
+50.0e6
+60.0e6
+70.0e6
+80.0e6

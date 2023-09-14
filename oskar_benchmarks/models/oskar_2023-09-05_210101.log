@@ -1,0 +1,71 @@
+ |                                                                   
+=|== OSKAR-2.8.3 starting at 2023-09-05, 21:01:01 (CST).
+ |                                                                   
+ | + Current dir is /home/zhangxun/OSKAR/ska-data-simulation-master/models
+ | + Logging to file oskar_2023-09-05_210101.log
+W|                                                                   
+W|== WARNING: No GPU capability available.
+W|                                                                   
+ |                                                                   
+=|== Loaded settings file 'oskar_sim_interferometer2_4h_00.ini'
+ |                                                                   
+ | + Simulator settings
+ |   - Use double precision              : false
+ |   - Use GPUs                          : true
+ |   - CUDA device IDs to use            : all
+ |   - Number of compute devices         : auto
+ |   - Max. number of sources per chunk  : 10000000
+ | + Sky model settings
+ |   - OSKAR sky model file settings
+ |     * OSKAR sky model file(s)         : m51_256 _final.osm
+ | + Observation settings
+ |   - Observation mode                  : Tracking
+ |   - Phase centre RA [deg]             : 20.0
+ |   - Phase centre Dec [deg]            : -30.0
+ |   - Start frequency [Hz]              : 1.0e+08
+ |   - Number of frequency channels      : 6
+ |   - Frequency increment [Hz]          : 1.0e+07
+ |   - Start time (UTC)                  : 24-08-2023 00:00:00.0
+ |   - Observation length [sec, or hh:mm:ss]: 04:00:00.0
+ |   - Number of time steps              : 24
+ | + Telescope model settings
+ |   - Input directory: /home/zhangxun/OSKAR/ska-data-simulation-master/models/telescope-SKA1-low
+ |   - Normalise beams at phase centre   : true
+ |   - Allow station beam duplication    : false
+ |   - Polarisation mode                 : Full
+ |   - Station type                      : Aperture array
+ |   - Aperture array settings
+ |     * Array pattern settings
+ |       + Normalise array pattern       : true
+ | + Interferometer settings
+ |   - Channel bandwidth [Hz]            : 300.0
+ |   - Time average [sec]                : 10.0
+ |   - Max. time samples per block       : 8
+ |   - Max. channels per block           : auto
+ |   - Correlation type                  : Cross-correlations
+ |   - Output OSKAR visibility file      : example_1hdata2_00.vis
+ |   - Output Measurement Set
+ |   - Force polarised Measurement Set   : false
+ |                                                                   
+=|== Sky model set-up
+ |                                                                   
+ | + Loading OSKAR sky model file 'm51_256 _final.osm' ...
+ |   - done.
+ |                                                                   
+=|== Sky model summary
+ |                                                                   
+ | + Number of sources                   : 65536
+ | + Number of chunks                    : 1
+ |                                                                   
+=|== Telescope model summary
+ |                                                                   
+ | + Longitude [deg]                     : 116.764
+ | + Latitude [deg]                      : -26.825
+ | + Altitude [m]                        : 0
+ | + Number of stations                  : 512
+ | + Number of station models            : 512
+ | + Max station size                    : 256
+ | + Max station depth                   : 1
+W|                                                                   
+W|== WARNING: Gaussian ellipse solution failed for 10388 sources. These will be simulated as point sources.
+W|                                                                   

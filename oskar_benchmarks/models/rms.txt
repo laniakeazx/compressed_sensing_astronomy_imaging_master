@@ -1,0 +1,12 @@
+# Example rms.txt file
+#
+# This file contains a list of Gaussian RMS values, in Jy, from which noise
+# amplitude values are evaluated. Entries in the list correspond to the noise
+# RMS value at the frequency defined either by the corresponding line in the
+# noise_frequencies.txt file or by the frequency specification in the noise
+# settings.
+#
+0.7
+0.5
+0.3
+0.2
